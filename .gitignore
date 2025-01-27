@@ -1,0 +1,4 @@
+ny_taxi_postgres_data/
+*.parquet
+*.ipynb
+data_pgadmin/
