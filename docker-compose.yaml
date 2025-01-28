@@ -26,9 +26,9 @@ services:
       "--host=pgdatabase",
       "--port=5432",
       "--db=ny_taxi",
-      "--data_table_name=yellow_taxi_trips",
+      "--data_table_name=green_taxi_trips",
       "--lookup_table_name=zone",
-      "--data_url=https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet",
+      "--data_url=https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2019-10.parquet",
       "--lookup_url=https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv"
     ]
     depends_on:
